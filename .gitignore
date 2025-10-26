@@ -1,0 +1,44 @@
+# Файлы и папки Gradle
+.gradle/
+build/
+**/build/
+
+# Локальные конфигурации
+local.properties
+
+# Кэш и файлы Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/httpRequests/
+
+# Ключи подписи
+*.jks
+*.keystore
+
+# Логи
+*.log
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
+
+# Файлы Android сборки
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Android NDK
+ndkBuild/
+
+# Исключить файлы локальных настроек, которые не нужны другим
+local.properties
