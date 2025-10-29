@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RandomFilmKotlin</string>
+    <string name="nextButton">Следующий</string>
+    <string name="resetButton">Сброс</string>
+    <string-array name="movies">
+        <item>Баба жук</item>
+        <item>Доктор Стоун</item>
+        <item>Изгой</item>
+        <item>Гарфилд</item>
+        <item>Мстители</item>
+        <item>1+1</item>
+        <item>Оно</item>
+        <item>Человек паук</item>
+        <item>Гарри поттер</item>
+        <item>Шерлок холмс</item>
+        <item>Ваня программистер</item>
+        <item>Звездные войны</item>
+    </string-array>
+</resources>
