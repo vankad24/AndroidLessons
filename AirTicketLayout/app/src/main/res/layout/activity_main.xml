@@ -17,8 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
-    ---
+    
     <TextView
         android:id="@+id/tv_cities_label"
         android:layout_width="0dp"
@@ -75,8 +74,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/spinner_departure_city"
         app:layout_constraintHorizontal_weight="1" />
-
-    ---
+    
     <TextView
         android:id="@+id/tv_dates_label"
         android:layout_width="0dp"
@@ -120,7 +118,7 @@
         app:layout_constraintTop_toTopOf="@+id/et_departure_date"
         app:layout_constraintHorizontal_weight="1" />
 
-    ---
+    
     <TextView
         android:id="@+id/tv_passengers_label"
         android:layout_width="0dp"
@@ -210,7 +208,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_weight="1" />
 
-    ---
+    
     <Button
         android:id="@+id/btn_search"
         android:layout_width="0dp"
@@ -223,7 +221,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    ---
+    
     <TextView
         android:id="@+id/tv_results_label"
         android:layout_width="0dp"
