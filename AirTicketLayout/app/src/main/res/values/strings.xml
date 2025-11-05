@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AirTicketLayout</string>
+
+    <string-array name="city_array">
+        <item>Москва (MOW)</item>
+        <item>Санкт-Петербург (LED)</item>
+        <item>Казань (KZN)</item>
+        <item>Новосибирск (OVB)</item>
+        <item>Екатеринбург (SVX)</item>
+        <item>Сочи (AER)</item>
+    </string-array>
+</resources>
