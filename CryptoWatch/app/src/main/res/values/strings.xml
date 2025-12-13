@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CryptoWatch</string>
+    <string-array name="crypto_currencies">
+        <item>BTC</item>
+        <item>ETH</item>
+        <item>BNB</item>
+        <item>XRP</item>
+        <item>SOL</item>
+    </string-array>
+    <string-array name="fiat_currencies">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>RUB</item>
+        <item>JPY</item>
+        <item>GBP</item>
+    </string-array>
+    <string-array name="intervals">
+        <item>5 сек</item>
+        <item>30 сек</item>
+        <item>1 мин</item>
+        <item>5 мин</item>
+    </string-array>
+</resources>
