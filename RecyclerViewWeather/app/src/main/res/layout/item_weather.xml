@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="weather"
+            type="com.molo4ko.tempbinding.WeatherCard"/>
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@{weather.city}"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text='@{"Температура: " + weather.temp + "°C"}'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text='@{"Влажность: " + weather.humidity + "%"}'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:imageRes="@{weather.weatherIcon}"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:imageRes="@{weather.windIcon}"/>
+
+    </LinearLayout>
+
+</layout>
